@@ -8,6 +8,24 @@
 
   --color-link-address: #434455;
   --color-link-hover: #404bbf;
+  /* color hero */
+
+  --color-main-section: #2e2f42;
+  --color-hero-section: #fff;
+  --color-hero-bt: #4d5ae5;
+  --color-hero-bttext: #fff;
+  --color-hero-bthover: #4d5ae5;
+
+  /* section2 */
+
+  --color-title-advantages: #2e2f42;
+  --color-advantages-text: #434455;
+
+  /* section3 */
+
+  --color-title-section: #2E2F42;
+
+  --color-bg-ourteam: #F4F4FD;
 
   --color-button-potrfolio: #4d5ae5;
   --color-button-bg: #f4f4fd;
@@ -85,8 +103,68 @@ body {
 .link-address:focus {
   color: var(--color-link-hover);
 }
+/* hero */
+.section-bg-color {
+  background-color: var(--color-main-section);
+}
 
-/* section1 */
+.hero-title-style {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-hero-section);
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-hero-bttext);
+  background-color: var(--color-hero-bt);
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--color-hero-bthover);
+}
+
+.hero-button:focus {
+  background-color: var(--color-hero-bthover);
+}
+/* section2 index */
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-title-advantages);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-advantages-text);
+}
+
+/* section3 index */
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-title-section);
+}
+
+.section-our-team {
+    background-color: var(--color-bg-ourteam);
+}
+/* section1 portfolio */
 
 .visually-hidden {
   position: absolute;
@@ -140,9 +218,9 @@ body {
 }
 
 .footer-bg-color {
-    background-color: var(--color-footer-bg);
+  background-color: var(--color-footer-bg);
 }
 
 .color-logo-footer {
-    color:#f4f4fd ;
+  color: #f4f4fd;
 }
