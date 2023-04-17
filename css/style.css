@@ -1,3 +1,77 @@
+:root {
+  /* color */
+  --color-logo-main: #4d5ae5;
+  --color-logo-second: #2e2f42;
+
+  --color-navi-blue: #2e2f42;
+  --color-naviblue-hover: #404bbf;
+
+  --color-link-address: #434455;
+  --color-link-hover: #404bbf;
+}
+
 body {
-    font-family: roboto;
+  font-family: roboto sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* header */
+
+.logo {
+  font-family: Raleway sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo-main);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.color-logo-second {
+  color: var(--color-logo-second);
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navi-blue);
+}
+
+.nav-link:hover {
+  color: var(--color-naviblue-hover);
+}
+
+.nav-link:active {
+  color: var(--color-naviblue-hover);
+}
+
+.address {
+  font-style: normal;
+}
+
+.link-address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-link-address);
+}
+
+.link-address:hover {
+    color: var(--color-link-hover);
+}
+
+.link-address:focus {
+    color: var(--color-link-hover);
 }
