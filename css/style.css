@@ -8,10 +8,20 @@
 
   --color-link-address: #434455;
   --color-link-hover: #404bbf;
+
+  --color-button-potrfolio: #4d5ae5;
+  --color-button-bg: #f4f4fd;
+  --color-button-hover: #fff;
+  --color-bg-hover: #404bbf;
+
+  --color-portfolio-title: #2e2f42;
+  --color-porfolio-desc: #434455;
+
+  --color-footer-bg: #2e2f42;
 }
 
 body {
-  font-family: roboto sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -19,7 +29,7 @@ body {
 /* header */
 
 .logo {
-  font-family: Raleway sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -52,7 +62,7 @@ body {
   color: var(--color-naviblue-hover);
 }
 
-.nav-link:active {
+.nav-link:focus {
   color: var(--color-naviblue-hover);
 }
 
@@ -69,9 +79,70 @@ body {
 }
 
 .link-address:hover {
-    color: var(--color-link-hover);
+  color: var(--color-link-hover);
 }
 
 .link-address:focus {
-    color: var(--color-link-hover);
+  color: var(--color-link-hover);
+}
+
+/* section1 */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-button-potrfolio);
+  background-color: var(--color-button-bg);
+  cursor: pointer;
+}
+
+.button-portfolio:hover {
+  color: var(--color-button-hover);
+  color: var(--color-bg-hover);
+}
+
+.button-portfolio:focus {
+  color: var(--color-button-hover);
+  color: var(--color-bg-hover);
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-portfolio-title);
+}
+
+.portfolio-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-porfolio-desc);
+}
+
+.footer-bg-color {
+    background-color: var(--color-footer-bg);
+}
+
+.color-logo-footer {
+    color:#f4f4fd ;
 }
