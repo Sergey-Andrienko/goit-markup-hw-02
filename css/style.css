@@ -14,7 +14,7 @@
   --color-hero-section: #fff;
   --color-hero-bt: #4d5ae5;
   --color-hero-bttext: #fff;
-  --color-hero-bthover: #fff;
+  --color-hero-bthover: #404bbf;
 
   /* section2 */
 
@@ -24,6 +24,8 @@
   /* section3 */
 
   --color-title-section: #2e2f42;
+
+  ---color-photo-item: #fff;
 
   --color-bg-ourteam: #f4f4fd;
   --color-title-name: #2e2f42;
@@ -139,6 +141,13 @@ body {
 }
 /* section2 index */
 
+.hidden-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -164,6 +173,10 @@ body {
   text-transform: capitalize;
   color: var(--color-title-section);
   text-align: center;
+}
+
+.photo-item {
+  background-color: var(--color-photo-item);
 }
 
 .section-our-team {
