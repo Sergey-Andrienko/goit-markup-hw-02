@@ -14,7 +14,7 @@
   --color-hero-section: #fff;
   --color-hero-bt: #4d5ae5;
   --color-hero-bttext: #fff;
-  --color-hero-bthover: #4d5ae5;
+  --color-hero-bthover: #fff;
 
   /* section2 */
 
@@ -23,9 +23,11 @@
 
   /* section3 */
 
-  --color-title-section: #2E2F42;
+  --color-title-section: #2e2f42;
 
-  --color-bg-ourteam: #F4F4FD;
+  --color-bg-ourteam: #f4f4fd;
+  --color-title-name: #2e2f42;
+  --color-desc-proff: #434455;
 
   --color-button-potrfolio: #4d5ae5;
   --color-button-bg: #f4f4fd;
@@ -113,10 +115,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--color-hero-section);
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -159,28 +163,34 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title-section);
+  text-align: center;
 }
 
 .section-our-team {
-    background-color: var(--color-bg-ourteam);
+  background-color: var(--color-bg-ourteam);
+}
+
+.title_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-title-name);
+}
+
+.desc-proffecion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-desc-proff);
 }
 /* section1 portfolio */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .button-portfolio {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -193,12 +203,12 @@ body {
 
 .button-portfolio:hover {
   color: var(--color-button-hover);
-  color: var(--color-bg-hover);
+  background-color: var(--color-bg-hover);
 }
 
 .button-portfolio:focus {
   color: var(--color-button-hover);
-  color: var(--color-bg-hover);
+  background-color: var(--color-bg-hover);
 }
 
 .portfolio-title {
